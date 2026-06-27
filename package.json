@@ -12,14 +12,14 @@
     "react-dom": "latest",
     "@supabase/supabase-js": "latest",
     "react-hot-toast": "latest",
-    "react-dropzone": "latest"
+    "react-dropzone": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
   },
   "devDependencies": {
     "typescript": "latest",
     "@types/react": "latest",
-    "@types/node": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
+    "@types/node": "latest"
   }
 }
