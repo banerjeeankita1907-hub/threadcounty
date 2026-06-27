@@ -4,10 +4,10 @@ import { createClient } from '@supabase/supabase-js'
 import { useDropzone } from 'react-dropzone'
 import toast, { Toaster } from 'react-hot-toast'
 
-// 🔴 REPLACE THESE WITH YOUR REAL SUPABASE URL AND ANON KEY
+// 🔴 Your REAL Supabase keys – already filled in
 const supabase = createClient(
-  'https://YOUR_PROJECT_ID.supabase.co',
-  'YOUR_ANON_KEY'
+  'https://mruyidecfhfwtdjgnvzq.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ydXlpZGVjZmhmd3RkamdudnpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI1NjYzNDMsImV4cCI6MjA5ODE0MjM0M30.Tko7ju9c-BsoSejlBKbzTcM6l1lizlPxSOPUdaBV5_M'
 )
 
 export default function Page() {
